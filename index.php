@@ -55,7 +55,7 @@
 
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html">
-                <?xml version="1.0" ?>
+              
                 <svg class="Home-svg" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
                   <path class="Home-icon"
                     d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z" />
@@ -66,7 +66,7 @@
 
             <li class="nav-item">
               <a class="nav-link" href="./Pages/about.html">
-                <?xml version="1.0" ?>
+         
                 <!DOCTYPE svg
                   PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
                 <svg class="Abt-svg" enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24"
@@ -110,7 +110,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="./Pages/Programs.html" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                <?xml version="1.0" ?>
+               
                 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
                 <svg class="Programs-svg" height="100%"
                   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
@@ -142,9 +142,9 @@
 
             <li class="nav-item">
               <a class="nav-link" href="./Pages/careers.html">
-                <?xml version="1.0" ?>
+               
 
-                <?xml version="1.0" ?>
+              
                 <svg class="Career-svg" height="8.4666mm"
                   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                   version="1.1" viewBox="0 0 846.66 846.66" width="8.4666mm" xml:space="preserve"
@@ -185,7 +185,7 @@
 
             <li class="nav-item">
               <a class="nav-link" href="./Pages/blog.html">
-                <?xml version="1.0" ?>
+               
                 <svg class="blog-svg_1" style="enable-background:new 0 0 100 100;" version="1.1" viewBox="0 0 100 100"
                   xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <style type="text/css">
@@ -217,7 +217,6 @@
 
             <li class="nav-item nav-item-last">
               <a class="nav-link" href="./Pages/contact.html">
-                <?xml version="1.0" ?>
                 <svg class="contact-svg" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                   <path class="contact-icon"
                     d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z" />

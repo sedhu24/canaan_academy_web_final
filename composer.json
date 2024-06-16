@@ -1,0 +1,17 @@
+{
+    "name": "sedhu/canaan_academy_web_final",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sedhu\\CanaanAcademyWebFinal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sedhu24",
+            "email": "smilesedhu001@gmail.com"
+        }
+    ]
+}

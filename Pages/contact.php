@@ -242,7 +242,7 @@
             <div class="row py-3 px-5 contact-row">
                 <div class="col-xl-5 col-lg-6">
                     <div class="contact-form">
-                        <form action="send_email.php" method="post">
+                        <form action="/send_email.php" method="post">
                             <input type="text" placeholder="Name" name="name" required>
                             <input type="email" placeholder="Email" name="email" required>
                             <textarea placeholder="Message" class="mb-2" name="message" ></textarea>
