@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar CSS */
+
+.navbar {
+    background-color: white !important;
+    /* height: 80px; */
+    /* border: thin solid red; */
+}
+
+.navbar-brand {
+    /* margin-bottom: -40px; */
+    margin-left: 30px;
+}
+
+.logo-img {
+    position: absolute;
+    height: 140px;
+    top: 1px;
+    padding: 10px 0;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    /* text-decoration: underline; */
+    /* border-bottom: thin solid  #093fab; */
+    color: #093fab !important;
+    transition: .5s;
+
+    .Home-icon,
+    .About-icon,
+    .Programs-icon,
+    .blog-icon,
+    .Career-icon,
+    .contact-icon {
+        fill: #093fab;
+        transition: .5s;
+    }
+}
+
+.nav-item {
+    margin-right: 80px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.nav-link {
+    /* border-bottom: thin solid  #ffffff; */
+    transition: .5s;
+    color: #04a7ac !important;
+}
+
+.nav-item-last {
+    margin-right: 0;
+}
+
+.offcanvas-title img {
+    height: 80px;
+}
+
+.Home-icon,
+.Programs-icon,
+.About-icon,
+.Career-icon,
+.blog-icon,
+.contact-icon {
+    fill: #04a7ac;
+}
+
+.Home-svg {
+    margin-left: 11px;
+    height: 20px;
+    display: block;
+}
+
+.Abt-svg {
+    height: 24px;
+    margin-left: 20px;
+    display: block;
+
+}
+
+.Programs-svg {
+    height: 24px;
+    margin-left: 18px;
+    display: block;
+}
+
+.Career-svg {
+    height: 26px;
+    margin-left: 15px;
+    display: block;
+
+}
+
+.blog-svg_1 {
+    height: 24px;
+    /* margin-left: 15px; */
+    display: block;
+}
+
+.contact-svg {
+    height: 22px;
+    margin-left: 25px;
+    display: block;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.offcanvas-header {
+    border-bottom: thin solid #9c9c9c;
+}
+
+.offcanvas.hiding,
+.offcanvas.show {
+
+    .Home-svg,
+    .Abt-svg,
+    .Programs-svg,
+    .blog-svg,
+    .contact-svg,
+    .Career-svg,
+    .blog-svg_1 {
+        margin-left: 0;
+        margin-right: 30px;
+        display: inline;
+    }
+
+    .nav-item {
+        margin-top: 20px;
+    }
+}
+
+.offcanvas.hiding,
+.offcanvas.show {
+
+    li a.active,
+    li a:hover {
+        text-decoration: none;
+    }
+}
+
+.dropdown-menu {
+    margin-left: -133px;
+    border: thin solid white;
+    /* background-color: #04a7ac; */
+}
+
+.dropdown-item {
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #04a7ac;
+    color: white !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+
+    .nav-item-last {
+        margin-right: 0;
+    }
+}
+
+@media (max-width:769px) {
+    .dropdown-menu {
+        margin-left: 0;
+        width: 116%;
+    }
+
+    .dropdown-item {
+        white-space: wrap;
+    }
+}
+
+
+
+/* Banner CSS..................................................................................... */
+
+.banner-fluid {
+    background-color: #04a7ac;
+    position: relative;
+    padding: 0;
+}
+
+.banner-heading {
+    font-family: "Sniglet", system-ui;
+    color: white;
+}
+
+.banner-sub {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.banner-row {
+    padding-right: 0;
+}
+
+.Abt-banner-img {
+    height: 350px;
+}
+
+.abt-img-col {
+    text-align: center;
+}
+
+.cloud-img {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+@media (max-width:992px) {
+    .abt-img-col {
+        margin-top: 30px;
+    }
+
+    .play-school .col-12 {
+        margin-top: 50px;
+    }
+
+    .Abt-banner-img {
+        height: 280px;
+    }
+
+    .banner-row {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1025px) {
+    .Abt-banner-img{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .banner-row {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .Abt-banner-img {
+        height: auto;
+    }
+}
+
+/* <!-- Abt-Career CSS......................................................................................... --> */
+
+.c-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.c-heading h1 {
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+}
+
+.english_phonics_img {
+    height: 400px;
+}
+
+@media (max-width: 426px) {
+    .english_phonics_img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 376px) {
+    .english_phonics_img {
+        height: 200px;
+    }
+}
+
+/* Footer section............................................................................................ */
+
+.footer-fluid {
+    background-color: #04a7ac;
+    background-image: url(../Images/bird.webp), url(../Images/footer-book.webp), url(../Images/footer-book.webp), url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images//footer-smily.webp);
+    background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
+    background-repeat: no-repeat;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white;
+}
+
+.fotter-row {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.fotter-row li {
+    margin-top: 8px;
+}
+
+.F-Social-div li img {
+    padding-right: 15px;
+}
